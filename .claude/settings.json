@@ -3,7 +3,12 @@
     "allow": [
       "WebFetch(domain:dkarkada.xyz)",
       "WebFetch(domain:saarangp.github.io)",
-      "WebFetch(domain:mattyb709.github.io)"
+      "WebFetch(domain:mattyb709.github.io)",
+      "WebFetch(domain:uddhavp22.github.io)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:arxiv.org)",
+      "Bash(sed -i '' 's|href=\"https://www.overleaf.com/read/dgtdkhnrpfxm#024d2e\" target=\"_blank\" rel=\"noopener\">cv ↗|href=\"cv.pdf\" target=\"_blank\" rel=\"noopener\">cv ↗|g' /Users/uddhavs/uddhav_website/index.html /Users/uddhavs/uddhav_website/blog.html /Users/uddhavs/uddhav_website/projects.html /Users/uddhavs/uddhav_website/reading.html)",
+      "Bash(sed -i '' 's|href=\"https://www.overleaf.com/read/dgtdkhnrpfxm#024d2e\" target=\"_blank\" rel=\"noopener\">cv ↗|href=\"../cv.pdf\" target=\"_blank\" rel=\"noopener\">cv ↗|g' /Users/uddhavs/uddhav_website/posts/on-starting.html /Users/uddhavs/uddhav_website/projects/laya-eeg.html /Users/uddhavs/uddhav_website/projects/eeg-representations.html /Users/uddhavs/uddhav_website/projects/music-jepa.html)"
     ]
   }
 }

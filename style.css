@@ -170,7 +170,7 @@ strong { font-weight: 500; }
 ───────────────────────────────────────── */
 .intro { margin-bottom: 2.75rem; }
 
-.intro h1 { font-style: italic; }
+.intro h1 { font-style: normal; }
 
 .bio { font-size: 1.05rem; line-height: 1.82; }
 .bio p { margin-bottom: 1.1rem; }
@@ -414,6 +414,88 @@ strong { font-weight: 500; }
 
 .project-links a:hover { color: var(--accent); }
 
+/* Clickable project card wrapper */
+.project-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card-link:hover .project-card {
+  border-color: var(--accent);
+}
+
+.project-card-link:hover h3 {
+  color: var(--accent);
+}
+
+.project-card-link .project-links span {
+  font-size: 0.83rem;
+  color: var(--text-muted);
+  font-style: italic;
+  transition: color 0.2s;
+}
+
+.project-card-link:hover .project-links span {
+  color: var(--accent);
+}
+
+/* ─────────────────────────────────────────
+   Publications
+───────────────────────────────────────── */
+.pub-entry {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.pub-entry:first-of-type {
+  border-top: 1px solid var(--border);
+}
+
+.pub-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.pub-title a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.pub-title a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.pub-authors {
+  font-size: 0.87rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.pub-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.83rem;
+}
+
+.pub-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-style: italic;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: color 0.2s;
+}
+
+.pub-links a:hover { color: var(--accent); }
+
 /* ─────────────────────────────────────────
    Reading / bookshelf
 ───────────────────────────────────────── */
@@ -456,6 +538,22 @@ strong { font-weight: 500; }
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-style: normal;
+}
+
+/* Clickable book card wrapper */
+.book-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card-link:hover .book-card,
+.book-card-link:hover .currently-reading {
+  border-color: var(--accent);
+}
+
+.book-card-link:hover .book-title {
+  color: var(--accent);
 }
 
 .book-note {
