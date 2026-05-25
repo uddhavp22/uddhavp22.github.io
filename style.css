@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 /* ─────────────────────────────────────────
    Tokens
@@ -170,7 +170,12 @@ strong { font-weight: 500; }
 ───────────────────────────────────────── */
 .intro { margin-bottom: 2.75rem; }
 
-.intro h1 { font-style: normal; }
+.intro h1 {
+  font-style: normal;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
 
 .bio { font-size: 1.05rem; line-height: 1.82; }
 .bio p { margin-bottom: 1.1rem; }
@@ -419,6 +424,10 @@ strong { font-weight: 500; }
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+.project-card-link * {
+  text-decoration: none;
 }
 
 .project-card-link:hover .project-card {
