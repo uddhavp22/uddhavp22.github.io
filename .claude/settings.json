@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:dkarkada.xyz)",
+      "WebFetch(domain:saarangp.github.io)",
+      "WebFetch(domain:mattyb709.github.io)"
+    ]
+  }
+}
