@@ -10,11 +10,8 @@ linkedin: uddhav-panchavati-4a7980270
 # Build
 markdown: kramdown
 highlighter: rouge
-kramdown:
-  input: GFM
-  math_engine: mathjax
 
-# Clean URLs for posts: /blog/post-title/
+# Clean URLs for posts
 permalink: /blog/:title/
 
 # Collections
