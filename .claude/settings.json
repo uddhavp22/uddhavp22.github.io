@@ -8,7 +8,16 @@
       "Bash(gh repo *)",
       "WebFetch(domain:arxiv.org)",
       "Bash(sed -i '' 's|href=\"https://www.overleaf.com/read/dgtdkhnrpfxm#024d2e\" target=\"_blank\" rel=\"noopener\">cv ↗|href=\"cv.pdf\" target=\"_blank\" rel=\"noopener\">cv ↗|g' /Users/uddhavs/uddhav_website/index.html /Users/uddhavs/uddhav_website/blog.html /Users/uddhavs/uddhav_website/projects.html /Users/uddhavs/uddhav_website/reading.html)",
-      "Bash(sed -i '' 's|href=\"https://www.overleaf.com/read/dgtdkhnrpfxm#024d2e\" target=\"_blank\" rel=\"noopener\">cv ↗|href=\"../cv.pdf\" target=\"_blank\" rel=\"noopener\">cv ↗|g' /Users/uddhavs/uddhav_website/posts/on-starting.html /Users/uddhavs/uddhav_website/projects/laya-eeg.html /Users/uddhavs/uddhav_website/projects/eeg-representations.html /Users/uddhavs/uddhav_website/projects/music-jepa.html)"
+      "Bash(sed -i '' 's|href=\"https://www.overleaf.com/read/dgtdkhnrpfxm#024d2e\" target=\"_blank\" rel=\"noopener\">cv ↗|href=\"../cv.pdf\" target=\"_blank\" rel=\"noopener\">cv ↗|g' /Users/uddhavs/uddhav_website/posts/on-starting.html /Users/uddhavs/uddhav_website/projects/laya-eeg.html /Users/uddhavs/uddhav_website/projects/eeg-representations.html /Users/uddhavs/uddhav_website/projects/music-jepa.html)",
+      "Read(//Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/Full Notes/**)",
+      "Bash(ls -la \"/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit\" 2>/dev/null || echo \"folder doesn't exist yet\")",
+      "Read(//Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/**)",
+      "Bash(chmod +x /Users/uddhavs/uddhav_website/publish.sh)"
+    ],
+    "additionalDirectories": [
+      "/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/Blog posts",
+      "/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/Projects",
+      "/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/Reading"
     ]
   }
 }

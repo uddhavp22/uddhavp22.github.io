@@ -1,0 +1,53 @@
+title: Uddhav Panchavati
+email: uddhavpanchavati@gmail.com
+url: "https://uddhavp22.github.io"
+baseurl: ""
+
+github_username: uddhavp22
+twitter_username: UddhavPanchava1
+linkedin: uddhav-panchavati-4a7980270
+
+# Build
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
+# Clean URLs for posts: /blog/post-title/
+permalink: /blog/:title/
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  books:
+    output: true
+    permalink: /books/:name/
+
+# Apply layouts automatically
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - publish.sh
+  - README.md
+  - .claude
+  - .serena
