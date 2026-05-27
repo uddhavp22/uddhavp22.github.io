@@ -4,6 +4,7 @@ tags: [WIP, Deep Learning, EEG]
 description: "This is an extension of my previous work on Laya: A LeJEPA Approach to EEG via Latent Prediction over Reconstruction"
 status: Active
 started: 2026
+order: 1
 ---
 
 *Note: Assuming you have read Laya/ know a little about EEG Foundation Models*

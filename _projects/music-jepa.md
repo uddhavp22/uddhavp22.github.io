@@ -4,6 +4,7 @@ tags: [Music, AI, Self-Supervised Learning]
 description: "Using Joint Embedding Predictive Architectures (JEPA) to learn rich representations of musical structure for automated arrangement — given a melody or solo piano piece, produce a coherent multi-instrument arrangement."
 status: Active
 started: 2025
+order: 3
 ---
 
 ## the idea

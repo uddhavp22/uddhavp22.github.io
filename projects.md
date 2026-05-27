@@ -13,7 +13,8 @@ permalink: /projects/
 
 <section class="section">
   <h2>active</h2>
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: "order" %}
+  {% for project in sorted_projects %}
   <a href="{{ project.url | relative_url }}" class="project-card-link">
     <div class="project-card">
       {% if project.tags %}

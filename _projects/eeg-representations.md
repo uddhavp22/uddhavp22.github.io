@@ -4,6 +4,7 @@ tags: [EEG, Representation Learning, Interpretability]
 description: "Foundation models trained on EEG signals are becoming increasingly capable — but what do they actually learn? This project probes their internal representations to understand whether they capture cognitively meaningful structure."
 status: Active
 started: 2025
+order: 2
 ---
 
 ## motivation
