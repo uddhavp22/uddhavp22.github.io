@@ -8,7 +8,7 @@ blurb: "This boy socrates is always debating some dude and dropping bars"
 
 ## why I picked this up
 
-[Write about what drew you to The Republic here.]
+I initially picked this book up to be performative about philosophy
 
 ## thoughts so far
 

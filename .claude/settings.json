@@ -12,7 +12,9 @@
       "Read(//Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/Full Notes/**)",
       "Bash(ls -la \"/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit\" 2>/dev/null || echo \"folder doesn't exist yet\")",
       "Read(//Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/**)",
-      "Bash(chmod +x /Users/uddhavs/uddhav_website/publish.sh)"
+      "Bash(chmod +x /Users/uddhavs/uddhav_website/publish.sh)",
+      "Bash(find \"/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain\" -name \"*.png\" -o -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.gif\" -o -name \"*.webp\" 2>/dev/null | head -20)",
+      "Read(//Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/**)"
     ],
     "additionalDirectories": [
       "/Users/uddhavs/Library/Mobile Documents/com~apple~CloudDocs/My second brain/My website shit/Blog posts",
