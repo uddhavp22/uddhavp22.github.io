@@ -1,6 +1,7 @@
 ---
 title: The Republic
 author: Plato, Translated by Allan Bloom
+status: currently reading
 genre: philosophy
 badge: reading
 blurb: This boy socrates is always debating some dude and dropping bars
