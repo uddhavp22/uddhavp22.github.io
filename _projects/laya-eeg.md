@@ -6,7 +6,7 @@ status: Active
 started: 2026
 ---
 
-*Note: Assuming you have read LAYA/ know a little about EEG Foundation Models*
+*Note: Assuming you have read Laya/ know a little about EEG Foundation Models*
 
 ## motivation
 
