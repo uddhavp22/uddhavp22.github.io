@@ -7,8 +7,7 @@ permalink: /reading/
 <div class="blog-intro">
   <h1>reading</h1>
   <p class="muted">
-    Books I'm reading, have read, and want to read. Unapologetically eclectic —
-    philosophy, fantasy, science, fiction, whatever.
+    Books I'm reading, have read, and want to read
   </p>
 </div>
 

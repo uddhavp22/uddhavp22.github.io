@@ -7,8 +7,7 @@ permalink: /projects/
 <div class="blog-intro">
   <h1>projects &amp; research</h1>
   <p class="muted">
-    Things I'm building and questions I'm trying to answer. Mostly at the intersection
-    of neuroscience, self-supervised learning, and music.
+    Things I'm building and questions I'm trying to answer.
   </p>
 </div>
 
