@@ -3,8 +3,8 @@ title: "Harry Potter Series"
 author: "J.K. Rowling"
 status: "favorite"
 genre: "fantasy"
-badge: "read · a classic"
-blurb: "Formative. No elaboration needed."
+badge: "read · OG"
+blurb: "read this series too many times"
 ---
 
 ## what it means to me

@@ -3,8 +3,8 @@ title: "A Song of Ice and Fire"
 author: "George R.R. Martin"
 status: "favorite"
 genre: "fantasy"
-badge: "read · still waiting for Winds"
-blurb: "Unmatched world-building. The wait is cruel."
+badge: "read"
+blurb: "this was so good, pls drop winds"
 ---
 
 ## what makes it special

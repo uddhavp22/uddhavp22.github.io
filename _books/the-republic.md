@@ -3,7 +3,7 @@ title: "The Republic"
 author: "Plato"
 status: "currently reading"
 genre: "philosophy"
-blurb: "Philosophy, justice, the ideal state, and Socrates arguing everyone into a corner. Slower going than expected — every question opens three more."
+blurb: "This boy socrates is always debating some dude and dropping bars"
 ---
 
 ## why I picked this up

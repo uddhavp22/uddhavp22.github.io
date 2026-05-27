@@ -4,6 +4,7 @@ author: "George R.R. Martin"
 status: "favorite"
 genre: "fantasy"
 badge: "read"
+blurb: "absolute banger easier to digest than ASoIF" 
 ---
 
 ## thoughts
